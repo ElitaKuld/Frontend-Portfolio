@@ -1,0 +1,42 @@
+.startsida img {
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+
+.startsida h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    color: cornflowerblue;
+}
+
+.startsida p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.navigering a {
+    text-decoration: none;
+}
+
+.navigering a:hover {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: deepskyblue;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: azure;
+}
+
+footer a:hover {
+    color: aquamarine;
+    text-decoration: underline;
+}
