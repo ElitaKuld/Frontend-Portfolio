@@ -15,11 +15,24 @@
     font-size: 16px;
 }
 
+.portfolio a {
+    text-decoration: none;
+}
+
 .navigering a {
     text-decoration: none;
 }
 
 .navigering a:hover {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+ul a:hover {
     color: cornflowerblue;
     text-decoration: underline;
 }
