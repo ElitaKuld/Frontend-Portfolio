@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 .startsida img {
     width: 200px;
     border-radius: 10px;
@@ -5,13 +9,13 @@
 }
 
 .startsida h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Pacifico', cursive;
     font-size: 32px;
     color: azure;
 }
 
 .startsida p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
 
@@ -23,6 +27,7 @@
 
 .startsida section {
     margin-left: 25px;
+    font-family: 'EB Garamond', serif;
 }
 
 .startsida {
@@ -66,10 +71,13 @@
 
 .kontakt h1 {
     margin: 25px;
+    font-family: 'EB Garamond', serif;
 }
 
 .kontakt address {
     margin: 25px;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
 }
 
 .kontakt iframe {
@@ -91,10 +99,11 @@ ul a:hover {
 
 footer {
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     background-color: deepskyblue;
     color: azure;
     margin-top: 25px;
+    flex-shrink: 0;
 }
 
 footer a {
@@ -127,4 +136,18 @@ footer a:hover {
     body {
         background-color: snow;
     }
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
 }
