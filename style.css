@@ -1,13 +1,13 @@
 .startsida img {
     width: 200px;
     border-radius: 10px;
-    margin-left: 25px;
+    margin: 25px;
 }
 
 .startsida h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 32px;
-    color: cornflowerblue;
+    color: azure;
 }
 
 .startsida p {
@@ -15,8 +15,44 @@
     font-size: 16px;
 }
 
+.startsida header {
+    text-align: center;
+    background-color: deepskyblue;
+    padding: 10px;
+}
+
+.startsida section {
+    margin-left: 25px;
+}
+
+.startsida {
+    height: 100%;
+    margin: 0;
+}
+
 .portfolio a {
     text-decoration: none;
+}
+
+.portfolio section {
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.beginning {
+    text-align: center;
+}
+
+.navigering {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: dodgerblue;
 }
 
 .navigering a {
@@ -26,6 +62,22 @@
 .navigering a:hover {
     color: cornflowerblue;
     text-decoration: underline;
+}
+
+.kontakt h1 {
+    margin: 25px;
+}
+
+.kontakt address {
+    margin: 25px;
+}
+
+.kontakt iframe {
+    margin: 25px;
+}
+
+address a {
+    text-decoration: none;
 }
 
 ul a {
@@ -39,9 +91,10 @@ ul a:hover {
 
 footer {
     text-align: center;
-    padding: 3px;
+    padding: 5px;
     background-color: deepskyblue;
-    color: white;
+    color: azure;
+    margin-top: 25px;
 }
 
 footer a {
@@ -52,4 +105,26 @@ footer a {
 footer a:hover {
     color: aquamarine;
     text-decoration: underline;
+}
+
+.footer-hr {
+    display: none;
+}
+
+@media (min-width: 576px) {
+    body {
+        background-color: white;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: ghostwhite;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        background-color: snow;
+    }
 }
